@@ -48,7 +48,8 @@ class Main {
         } else if (a == 3) {
           d = 0; e = 1; f = 2; g = 4;
         } else if (a == 4) {
-          d = 0; e = 1; f = 2; g = 3; }
+          d = 0; e = 1; f = 2; g = 3; 
+        }
         if (array[a] >= array[d] && array[a] >= array[e] && array[a] >= array[f] && array[a] >= array[g]) {
           secondbiggest = array[a];
           array[a] = 0;
